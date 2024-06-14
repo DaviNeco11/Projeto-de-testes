@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+  </head>
+  <body>
+    <h2>PONTOS E POMBOS</h2>
+
+    <script src="https://js.zohostatic.com/creator/widgets/version/1.0/widgetsdk-min.js"></script>
+    <script src="script.js"></script>
+
+
+    <div class="game">
+
+        <div class="top-right-image">
+            <img src="https://usagif.com/wp-content/uploads/gifs/race-flag-6.gif" alt="Top Right Image">
+          </div>
+
+
+      <div class="image-container" style="top: 30px;">
+        <div class="image" id="image1">
+          <img src="https://i.pinimg.com/originals/cb/c0/e5/cbc0e57f227a4cdf1f607238cea09126.gif" alt="Image 1" onclick="Cartinha(0)" style="cursor: pointer;">
+        </div>
+      </div>
+
+      <div class="image-container" style="top: 120px;">
+        <div class="image" id="image2">
+          <img src="https://i.pinimg.com/originals/cb/c0/e5/cbc0e57f227a4cdf1f607238cea09126.gif" alt="Image 2" onclick="Cartinha(1)" style="cursor: pointer;"/>
+        </div>
+      </div>
+
+      <div class="image-container" style="top: 220px;">
+        <div class="image" id="image3">
+          <img src="https://i.pinimg.com/originals/cb/c0/e5/cbc0e57f227a4cdf1f607238cea09126.gif" alt="Image 3" onclick="Cartinha(2)" style="cursor: pointer;" />
+        </div>
+      </div>
+
+      <div class="image-container" style="top: 320px;">
+        <div class="image" id="image4">
+          <img src="https://i.pinimg.com/originals/cb/c0/e5/cbc0e57f227a4cdf1f607238cea09126.gif" alt="Image 4" onclick="Cartinha(3)" style="cursor: pointer;" />
+        </div>
+      </div>
+
+      <div class="image-container" style="top: 420px;">
+        <div class="image" id="image5">
+          <img src="https://i.pinimg.com/originals/cb/c0/e5/cbc0e57f227a4cdf1f607238cea09126.gif" alt="Image 5" onclick="Cartinha(4)" style="cursor: pointer;" />
+        </div>
+      </div>
+    </div>
+
+    <div class="optionssel">
+      <select id="imageSelector">
+        <option value="image1">Pombo 1</option>
+        <option value="image2">Pombo 2</option>
+        <option value="image3">Pombo 3</option>
+        <option value="image4">Pombo 4</option>
+        <option value="image5">Pombo 5</option>
+      </select>
+      <input type="number" id="pointsInput" class="points" placeholder="Digite os pontos">
+  </div>
+  
+  <div class="card">
+    <div class="infos">
+      <p id="nomeht"></p>
+      <p id="idadeht"></p>
+      <p id="empresaht"></p>
+    </div>
+  </div>
+  </body>
+</html>

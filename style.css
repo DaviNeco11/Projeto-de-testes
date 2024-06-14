@@ -1,0 +1,133 @@
+.game {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/009/877/819/non_2x/pixel-art-landscape-of-pine-forest-in-the-mountains-8-bit-background-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.image-container {
+    position: absolute;
+}
+
+.image {
+    width: 100px; 
+    height: 100px; 
+    position: absolute; 
+    text-align: center;
+}
+
+.image img {
+    display: block;
+    margin: 0 auto;
+    width: 100%; 
+    height: 100%; 
+}
+.controls {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    display: flex;
+    gap: 10px;  
+}
+
+.points {
+    display: block;
+    margin-bottom: 10px; 
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.card {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/020/853/699/original/illustration-of-tv-cartoon-tv-television-drawing-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.card h1 {
+    font-size: 3rem;
+    color: rgb(54, 32, 222);
+    text-align: center;
+    margin-top: 15rem;
+}
+.infos{
+
+    font-size: medium;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    margin-top: 270px;
+
+}
+
+
+
+.image23 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 10px 0;
+}
+.top-right-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000; /* Make sure it is on top of other elements */
+  }
+
+  .top-right-image img {
+    max-width: 100px; /* Adjust this value as needed */
+    max-height: 100px; /* Adjust this value as needed */
+    width: auto;
+    height: auto;
+    object-fit: contain; /* Ensures the image is contained within the given width and height */
+  }
+
+  /* Estilo para o contêiner */
+.optionssel {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    float: left;
+}
+
+/* Estilo para o select */
+#imageSelector {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Espaçamento entre o select e o input */
+}
+
+/* Estilo para o input */
+#pointsInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h2 {
+  font-size: 24px;
+  color: #4bc2b4;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
